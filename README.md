@@ -7,7 +7,7 @@
 <br />
 
 ## 🎮 About the game
-Project developed in mid-2016 at the Federal University of Santa Catarina, Araranguá campus. Initially, the game was designed to use Dijkstra's algorithm as artificial intelligence. However, due to some problems, the idea was left out and it was decided to make a simpler system. 
+Project developed together with two other colleagues and great friends, <i><a href="https://github.com/LucasGJ0">Lucas Guedes</a><i> and <i><a href="https://www.instagram.com/andreyclemes/">Andrey V. Clemes</a> (Instagram)<i>, in mid-2016 at the Federal University of Santa Catarina, Araranguá campus. Initially, the game was designed to use Dijkstra's algorithm as artificial intelligence. However, due to some problems, the idea was left out and it was decided to make a simpler system. 
 
 ## ❓ How it works?
 The game developed is a tribute to the classic "Pacman", the main difference is in the way the ghosts chase the pacman in the maze. In fact, the maze was built to be the closest to the original. The objective of the game remains the same: go through the maze, eating the points, without getting caught by any of the enemies. When eating all the points in the scenario a message is displayed and the game is finished. However, if any of the ghosts collide with the pacman, the game ends instantly.
