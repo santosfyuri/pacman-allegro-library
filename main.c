@@ -1,20 +1,6 @@
 #include <stdio.h>
 #include <allegro.h>
 
-int** load_scene(const char* file, int* line, int* column);
-
-void draw_scene(BITMAP* buffer, int** scene, int line, int column);
-
-void track_pacman(BITMAP* buffer, int** scene, int line, int column, int walk);
-
-void chase_pacman(BITMAP* buffer, int** scene, int line, int column);
-
-void free_scene(int** scene, int line);
-
-void free_elements();
-
-void fill_vector_aux();
-
 /**
 * Variables used from the allegro library
 * for the construction of game elements.
@@ -59,6 +45,20 @@ void ms_time(){
     ms++;
 }
 END_OF_FUNCTION(ms_time());
+
+int** load_scene(const char* file, int* line, int* column);
+
+void draw_scene(BITMAP* buffer, int** scene, int line, int column);
+
+void track_pacman(BITMAP* buffer, int** scene, int line, int column, int walk);
+
+void chase_pacman(BITMAP* buffer, int** scene, int line, int column);
+
+void free_scene(int** scene, int line);
+
+void free_elements();
+
+void fill_vector_aux();
 
 void start_game();
 
