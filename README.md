@@ -1,4 +1,4 @@
-# Pacman - Allegro Library 
+# Pacman - Biblioteca Allegro 
 
 <p align="center">
   <img src="https://i.imgur.com/d7xgxeT.gif">
@@ -6,14 +6,15 @@
 
 <br />
 
-## 🎮 About the game
-Project developed together with two other colleagues and great friends, <i><a href="https://github.com/LucasGJ0">Lucas Guedes</a></i> and <i><a href="https://www.instagram.com/andreyclemes/">Andrey V. Clemes</a> (Instagram)</i>, in mid-2016 at the Federal University of Santa Catarina, Araranguá campus. Initially, the game was designed to use Dijkstra's algorithm as artificial intelligence. However, due to some problems, the idea was left out and it was decided to make a simpler system. 
+## 🎮 Sobre o jogo
+Projeto desenvolvido junto com outros dois colegas e grandes amigos, <i><a href="https://github.com/LucasGJ0">Lucas Guedes</a></i> and <i><a href="https://www.instagram.com/andreyclemes/">Andrey V. Clemes</a> (Instagram)</i>, em meados de 2016 na Universidade Federal de Santa Catarina, campus Araranguá. Inicialmente, o jogo foi projetado para usar o algorítmo de Dijkstra como inteligência artificial. Contudo, devido alguns problemas, a ideia foi deixada de lado e foi decidido fazer um sistema mais simples.
 
-## ❓ How it works?
-The game developed is a tribute to the classic "Pacman", the main difference is in the way the ghosts chase the pacman in the maze. In fact, the maze was built to be the closest to the original. The objective of the game remains the same: go through the maze, eating the points, without getting caught by any of the enemies. When eating all the points in the scenario a message is displayed and the game is finished. However, if any of the ghosts collide with the pacman, the game ends instantly.
+## ❓ Como funciona?
+O jogo foi desenvolvido como uma homenagem ao clássico "Pacman", a diferença é a forma que os inimigos (fantasmas) perseguem o Pacman no labirinto. Na verdade, o labirinto 
+The game developed is a tribute to the classic "Pacman", the main difference is in the way the ghosts chase the pacman in the maze. Na verdade, o labirinto foi construído para ser o mais próximo do original. O objetivo do jogo continua sendo o mesmo: percorrer o labirinto, pontuando o máximo possível, sem ser pego por nenhum dos inimigos. Ao consumir todos os pontos do cenário, uma mensagem é exibida e o jogo é finalizado. No entanto, se algum dos fantasmas colidir com o Pacman, o jogo termina instantaneamente.
 
-## ⚙️ Installation
-To compile the game correctly, it is recommended to use Code :: Blocks version 12.11, and use the Allegro library version 4.4.2. However, if you just want to run the game, just clone this project and run the .exe file by accessing the "Release" folder in the "bin / Release / Pacman - Allegro Library.exe" path.
+## ⚙️ Instalação
+Para compilar o jogo corretamente, é necessário utilizar o Code :: Blocks versão 12.11, juntamente com a biblioteca Allegro versão 4.4.2. De qualquer forma, se você apenas deseja executar o jogo, basta clonar este repositório e executar o arquivo ".exe", que é encontrado no caminho "bin/Release/Pacman - Allegro.exe".
 
-## 🚀 A little more
-The project has not been updated since the university. Thus, a refactoring process will be necessary, as well as the updating of the Allegro library, in addition to the application of best practices on the C language. 
+## 🚀 Um pouco mais
+O projeto não tem sido atualizado desde a universidade. Portanto, é necessário um processo de refatoração, assim como a atualização da biblioteca Allegro, além da aplicação de melhores práticas na linguagem C.
